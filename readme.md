@@ -18,12 +18,3 @@ The objective is to analyze trade-offs in **performance, robustness, and general
 - 📈 **Best traditional feature:** HOG + Logistic Regression → **64.7% accuracy, Kappa = 0.629**  
 - ⚠️ **Weakest features:** Edge detection and LBP, showing poor generalization (< 42% accuracy)  
 
----
-
-## 📂 Repository Structure  
-plant-disease-feature-comparison/
-│── traditional_models.py      # HOG, LBP, Edge + ML classifiers
-│── deep_learning_models.py    # ResNet50, MobileNetV2, VGG16 + ML classifiers
-│── README.md                  # Project overview & documentation
-│── requirements.txt           # Dependencies
-│── results/                   # (Optional: metrics tables & plots)
